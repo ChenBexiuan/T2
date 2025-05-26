@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Registro</title>
+
+  <style>
+
+    body {
+
+      background-image: url('login.jpg');
+
+      /* Imagen de fondo */
+
+      background-size: cover;
+
+      background-position: center;
+
+      background-repeat: no-repeat;
+
+      display: flex;
+
+      justify-content: center;
+
+      align-items: center;
+
+      height: 100vh;
+
+      margin: 0;
+
+      font-family: Arial, sans-serif;
+
+    }
+
+    
+
+    .form-container {
+
+      background-color: rgba(255, 255, 255, 0.9);
+
+      /* Fondo blanco con transparencia */
+
+      padding: 25px;
+
+      border-radius: 10px;
+
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+      width: 350px;
+
+      text-align: center;
+
+    }
+
+    
+
+    .form-container h2 {
+
+      margin-bottom: 15px;
+
+      color: #333;
+
+    }
+
+    
+
+    .form-group {
+
+      display: flex;
+
+      flex-direction: column;
+
+      align-items: center;
+
+      margin-bottom: 10px;
+
+      width: 100%;
+
+    }
+
+    
+
+    .form-group input,
+
+    .form-group select {
+
+      width: 100%;
+
+      padding: 10px;
+
+      border: 1px solid #ccc;
+
+      border-radius: 5px;
+
+      font-size: 16px;
+
+    }
+
+    
+
+    .form-container button {
+
+      width: 100%;
+
+      padding: 10px;
+
+      background-color: #d32f2f;
+
+      color: white;
+
+      border: none;
+
+      border-radius: 5px;
+
+      cursor: pointer;
+
+      font-size: 16px;
+
+      margin-top: 10px;
+
+    }
+
+    
+
+    .form-container button:hover {
+
+      background-color: #b71c1c;
+
+    }
+
+    
+
+    .form-container a {
+
+      display: block;
+
+      text-align: center;
+
+      margin-top: 15px;
+
+      color: #1976d2;
+
+      text-decoration: none;
+
+      font-size: 14px;
+
+    }
+
+    
+
+    .form-container a:hover {
+
+      text-decoration: underline;
+
+    }
+
+  </style>
+
+</head>
+
+
+
+<body>
+
+  <div class="form-container">
+
+    <h2>Registro</h2>
+
+    <form>
+
+      <div class="form-group">
+
+        <input type="text" placeholder="Ingrese su usuario" required>
+
+      </div>
+
+      <div class="form-group">
+
+        <input type="email" placeholder="Ingrese su correo electrónico" required>
+
+      </div>
+
+      <div class="form-group">
+
+        <input type="password" placeholder="Ingrese su contraseña" required>
+
+      </div>
+
+      <div class="form-group">
+
+        <input type="password" placeholder="Confirme su contraseña" required>
+
+      </div>
+
+      <div class="form-group">
+
+        <select required>
+
+          <option value="postulante">Postulante</option>
+
+        </select>
+
+      </div>
+
+      <button type="submit">Registrar</button>
+
+    </form>
+
+    <a href="#">¿Ya tienes cuenta? Iniciar sesión</a>
+
+  </div>
+
+</body>
+
+
+
+</html>
